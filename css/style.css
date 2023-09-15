@@ -13,12 +13,48 @@ body{
     height: 100vh;
 }
 .top-bar{
-    background-color: #ff0000;
+    height: 50px;
+    padding: 0px 5px;
 }
 .toolbar{
     background-color: #222222;
+    height: 90px;
+}
+.user-gallery{
+    height: calc(100% - 140px);
+    overflow-y: auto;
+    padding: 20px 0px;
+}
+.user-card{
+    width: calc(100% / 7 - 20px);
+    position: relative;
+    min-width: 250px;
 }
 
+button{
+    background-color: #4a4a4a;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 3px;
+}
+img{
+    display: block;
+    width: 100%;
+}
+.user-name{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 3px 6px 3px 3px;
+}
+.tool{
+    text-align: center;
+    padding: 10px;
+}
+.tool span{
+    display: block;
+}
 /* FLEX  */
 .d-flex{
 display: flex;
@@ -45,8 +81,11 @@ flex-direction: row;
 .gap{
     gap: 10px;
 }
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
 
 
-/* img https://picsum.photos/id/1/200/300 */
