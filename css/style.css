@@ -51,9 +51,15 @@ img{
 .tool{
     text-align: center;
     padding: 10px;
+    margin-right: 5px;
 }
 .tool span{
     display: block;
+}
+.btn{
+    color: #ff0000;
+    background-color: #4a4a4a;
+    height: 100%;
 }
 /* FLEX  */
 .d-flex{
